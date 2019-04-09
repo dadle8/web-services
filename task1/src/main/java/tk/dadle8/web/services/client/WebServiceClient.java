@@ -9,8 +9,8 @@ public class WebServiceClient {
 
     public static void main(String[] args) throws MalformedURLException {
         URL url = new URL("http://localhost:8080/countries?wsdl");
-        CountryService personService = new CountryService(url);
-        List<Country> countries = personService
+        CountryService countryService = new CountryService(url);
+        List<Country> countries = countryService
                 .getCountryWebServicePort()
                 .getCountries(args[0], args[1], args[2], args[3], args[4]);
         for (Country country : countries) {
