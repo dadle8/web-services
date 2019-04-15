@@ -12,13 +12,4 @@
 
     <artifactId>example</artifactId>
     <name>Example</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.2-1003-jdbc4</version>
-        </dependency>
-    </dependencies>
-
 </project>
