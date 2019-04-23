@@ -12,8 +12,8 @@
 </message>
 <portType name="CountryWebService">
 <operation name="getCountries">
-<input wsam:Action="http://tk.dadle8.web.services.web.dadle8.tk/CountryWebService/getCountriesRequest" message="tns:getCountries"></input>
-<output wsam:Action="http://tk.dadle8.web.services.web.dadle8.tk/CountryWebService/getCountriesResponse" message="tns:getCountriesResponse"></output>
+<input wsam:Action="http://services.web.dadle8.tk/CountryWebService/getCountriesRequest" message="tns:getCountries"></input>
+<output wsam:Action="http://services.web.dadle8.tk/CountryWebService/getCountriesResponse" message="tns:getCountriesResponse"></output>
 </operation>
 </portType>
 <binding name="CountryWebServicePortBinding" type="tns:CountryWebService">
