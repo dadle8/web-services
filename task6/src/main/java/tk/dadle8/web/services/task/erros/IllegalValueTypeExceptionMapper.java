@@ -1,4 +1,4 @@
-package tk.dadle8.web.erros;
+package tk.dadle8.web.services.task.erros;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
