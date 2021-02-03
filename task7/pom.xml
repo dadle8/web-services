@@ -14,7 +14,7 @@
     <name>Task7</name>
 
     <properties>
-        <juddi.version>3.2.0</juddi.version>
+        <juddi.version>3.3.9</juddi.version>
     </properties>
 
     <dependencies>
